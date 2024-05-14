@@ -4,7 +4,7 @@
 import pandas as pd
 
 tabela_vendas = pd.read_excel(r"C:\Users\nicol\OneDrive\Desktop\Datasets\Vendas+-+Base+de+Dados.xlsx")
-print(tabela_vendas)
+print(tabela_vendas.to_string())
 
 # Passo 2 - Calcular o produto mais vendido (em quantidade)
 
